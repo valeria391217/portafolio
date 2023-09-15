@@ -1,0 +1,468 @@
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+/* 
+body {  
+    background-color: plum;
+    margin: 0; 
+    padding: 0;
+
+
+} */
+
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: plum; 
+    margin: 0; 
+    padding: 0;
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 25px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+    text-align: center;
+  }
+  
+  
+  h3{
+    font-size: 15px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+    text-align: center;
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+
+.header-cv > .container-navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    position: relative;
+    color: white;
+    font-size: 60px;   
+    display: flex;
+    align-items: center;
+
+}
+
+.logo > img{
+    width: 9rem;
+}
+
+.container-navbar{
+     border-color: white;
+    color: white;
+}
+
+.header-cv > .container-navbar > .patoportafolio{
+    display: flex;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+
+}
+.navbar > li {
+    margin: 10px;
+    display: flex;
+    margin-top: 13px;
+    list-style: none;
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    transition: 0,3s ;
+}
+
+
+.container-info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 30px;
+}
+
+.cont-info{
+    display: flex;
+    padding: 0 30px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: white;
+    font-size: 21px;
+    background-image: url(Premium\ Photo\ _\ Close\ up\ minimal\ laptop\ on\ desktop\ render\ background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.introduccion{
+    display: flex;
+    
+    
+}
+
+.information > .name {
+    font-size: 50px;
+
+}
+
+.foto{
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    display: flex;
+    
+}
+
+.perfil{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.cont-info > .perfil > .foto{
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    width:50%;
+    transition: 0.3s;
+ 
+    
+}
+
+.redesociales{
+    position: relative;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.redesociales:hover{
+    position: relative;
+    
+}
+
+.descargarcv{
+    position: relative;
+    display: flex;
+    box-shadow: 0px 0px 19px 6px white;
+	background-color:black;
+	border-radius:28px;
+	border:1px solid white;
+	cursor:pointer;
+	color:white;
+	font-size:20px;
+	padding: 20px 40px;
+	text-decoration:none;
+    margin-top: 50px;
+}
+
+
+.descargarcv:hover{
+    background-color:white ;
+    color: #000000;
+}
+
+.services{
+
+    background-size: 100%;
+    padding-top: 30px;
+}
+
+.services > h2 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+
+}
+
+.main-home{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+        background-color:plum;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        width: 15rem;
+        height: 20rem;
+        margin: 1rem;
+        border-radius: 5px;
+        border: double 5px;
+        border-color: white;
+        color: white;
+    }
+  
+  .card > img {
+    height: 50%;
+    border-radius: 5px 5px;
+    object-fit: cover;
+  }
+ 
+  .card >img:hover{
+    transform: scale(1.2);
+}
+  
+
+.cards{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-anchor{
+    text-decoration: none;
+}
+
+.contacto{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid #000000;
+}
+
+.contacme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto > form > input{
+    margin-top: 10px;
+    width: 295px;
+    height: 30px;
+}
+.contacto > form > h1{
+
+}
+
+
+
+@media (max-width:920px){
+
+    .logo {
+
+        font-size: 50px;
+        padding-left: 2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .navbar > li > a {
+
+        font-size: 14px;
+    }
+
+    .navbar{
+
+        padding-right: 7rem;
+        padding-left: 0;
+    }
+
+    
+    .logo {
+
+        font-size: 35px;
+        padding-left: 12rem;
+    }
+
+    .perfil img{
+
+        width: 200%;
+        height: 200px;
+    }
+
+    .information{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-home{
+
+        margin-top: 5rem;
+        padding-left: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+
+        width: 12rem;
+        height: 25rem;
+    }
+
+    .cont-info{
+        padding-left: 4rem;
+    }
+
+    .contacme{
+
+        padding-top: 4rem;
+    }
+}
+@media (max-width:480px){
+    
+}
+
+@media (max-width:320px){
+    .contact_form{
+        margin-left: 80px;
+    }
+
+    .main-home{
+        margin-left: 244px;
+    }
+    .header-cv > .container-navbar {
+        margin-left: 88px;
+    }
+    .introduccion{
+        margin-left: 28px;
+    }
+}
